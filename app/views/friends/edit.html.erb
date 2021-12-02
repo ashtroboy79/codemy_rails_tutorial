@@ -6,4 +6,5 @@
 </div>
 <br/>
 <%= link_to 'Show', @friend, class:"btn btn-outline-secondary"%>
+<%= link_to 'Delete', @friend, method: :delete, data: { confirm: 'Are you sure?' } ,  class:"btn btn-outline-danger"%>
 <%= link_to 'Back', friends_path, class:"btn btn-outline-dark"%>
